@@ -8,5 +8,9 @@
  */
 
 return array(
-
+	
+    'siteUrl' => 'http://'.$_SERVER['HTTP_HOST'],
+    'devMode' => true
+    /*'omitScriptNameInUrls' => true*/
+	
 );
