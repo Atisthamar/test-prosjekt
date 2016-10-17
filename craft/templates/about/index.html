@@ -1,3 +1,13 @@
-dette er about
+{% extends "_layout" %}
+{% block content %}
+ 
+{% for entry in craft.entries.section('about') %}
 
-Og lagt til litt tekst i about branchen og litt til
+{{ entry.innhold }}<br>
+{{ entry.navn }}<br>
+{{ entry.epost }}<br>
+{{ entry.telefon }}
+
+{% endfor %}
+
+{% endblock %}
