@@ -1,0 +1,22 @@
+{
+  "name": "gittestmac",
+  "version": "1.0.0",
+  "description": "Welcome to Craft CMS!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atisthamar/test-prosjekt.git"
+  },
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atisthamar/test-prosjekt/issues"
+  },
+  "homepage": "https://github.com/Atisthamar/test-prosjekt#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
