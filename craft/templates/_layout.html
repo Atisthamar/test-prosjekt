@@ -15,7 +15,7 @@
 	<meta charset="utf-8" />
 	<title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
 	<link rel="home" href="{{ siteUrl }}" />
-
+	{% includeJsFile "./js/min/main.js" %}
 	<style type="text/css">
 		body { margin: 50px; font-family: sans-serif; background: #fff; }
 		#container { margin: 0 auto; width: 700px;
