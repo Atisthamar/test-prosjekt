@@ -10301,7 +10301,7 @@
 
 	"use strict";
 
-	var message2 = "alert fra script 2";
+	var message2 = "alert fra dette scriptet, script 2";
 
 	alert(message2);
 
