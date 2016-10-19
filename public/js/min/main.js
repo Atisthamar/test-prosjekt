@@ -59,7 +59,7 @@
 
 	"use strict";
 
-	var message = "test fra script 1";
+	var message = "test fra script 123";
 
 	var headerblock = document.getElementById("header");
 
