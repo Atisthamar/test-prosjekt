@@ -1,4 +1,4 @@
-const message = "test fra script 1";
+const message = "test fra script 123";
  
 const headerblock = document.getElementById("header");
 
