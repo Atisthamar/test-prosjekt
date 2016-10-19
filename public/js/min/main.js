@@ -10305,6 +10305,12 @@
 
 	alert(message2);
 
+	var product = { name: "test" };
+
+	var thename = product.name;
+
+	console.log(thename);
+
 /***/ },
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
