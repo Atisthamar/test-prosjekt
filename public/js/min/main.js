@@ -10299,17 +10299,20 @@
 /* 3 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 
-	var message2 = "alert fra dette scriptet, script 2";
+	var message2 = 'alert fra dette scriptet, script 2';
 
 	alert(message2);
 
-	var product = { name: "test" };
-
+	var product = { name: 'test' };
 	var thename = product.name;
 
-	console.log(thename);
+	if (product.name === 'test') {
+		console.log('Name is test');
+	} else {
+		console.log('Name is not test');
+	}
 
 /***/ },
 /* 4 */
