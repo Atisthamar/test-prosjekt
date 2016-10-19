@@ -1,4 +1,6 @@
 
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+
 module.exports = {
 
 	// define entry point
@@ -22,10 +24,16 @@ module.exports = {
 			},
 			{
 				test: /\.scss$/,
-				loader: 'style-loader!css-loader!sass-loader'
+				exclude: /(node_modules)/,
+				//loader: 'style-loader!css-loader!sass-loader'
+				loader: ExtractTextPlugin.extract('style-loader!css-loader!sass-loader')
 			}
 
 		]
-	}
-
+	},
+	plugins: [
+	new ExtractTextPlugin('./public/css/min/screen.css', {
+		allChunks: true
+	})
+	]
 }
